@@ -25,6 +25,7 @@ public class Product {
     @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
             name = "recipe_product"
+            , schema = "cookies"
             , joinColumns = @JoinColumn(name = "product_id")
             , inverseJoinColumns = @JoinColumn(name = "recipe_id")
     )
