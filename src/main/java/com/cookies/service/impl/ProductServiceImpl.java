@@ -37,6 +37,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Product getById(Long id) {
-        return productRepository.findAll().stream().filter(product -> product.getId() == id).findAny().orElse(null);
+        return productRepository.getProductById(id);
+        //return productRepository.findAll().stream().filter(product -> product.getId() == id).findAny().orElse(null);
     }
 }
