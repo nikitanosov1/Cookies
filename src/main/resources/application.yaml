@@ -4,7 +4,7 @@ spring:
       org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: root
+    password: 1608
   jpa:
     show-sql: true
     properties:
@@ -12,4 +12,4 @@ spring:
         dialect:
           org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: validate
+      ddl-auto: create
