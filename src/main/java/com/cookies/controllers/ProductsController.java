@@ -18,11 +18,6 @@ public class ProductsController {
         this.productService = productService;
     }
 
-    @GetMapping("/hello")
-    public String index(){
-        return "hello";
-    }
-
     @GetMapping("/{id}")
     public Product showById(@PathVariable("id") Long id){
         return productService.getById(id);
@@ -37,6 +32,11 @@ public class ProductsController {
     public Product add(@RequestBody Product product){
         System.out.println(product);
         return productService.addProduct(product);
+    }
+
+    @GetMapping("/search")
+    public List<Product> getListOfProductsByProductName(@RequestParam("productName") String productName){
+        return productService.getListOfProductsByProductName(productName);
     }
 
     @GetMapping("/del")
