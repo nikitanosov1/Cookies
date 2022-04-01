@@ -10,4 +10,5 @@ public interface ProductService {
     Product editProduct(Product product);
     List<Product> getAll();
     Product getById(Long id);
+    List<Product> getListOfProductsByProductName(String name);
 }
