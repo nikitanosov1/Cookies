@@ -10,6 +10,7 @@ import java.util.List;
 
 @CrossOrigin(maxAge = 3600)
 @RestController
+@RequestMapping("/products")
 public class ProductsController {
     private final ProductService productService;
 
