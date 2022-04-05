@@ -1,5 +1,6 @@
 package com.cookies.entities;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -29,9 +30,15 @@ public class Recipe {
     private String photo;
 
     @Column
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate date;
 
-    @ManyToMany(cascade = CascadeType.ALL, mappedBy = "recipes")
+    @ManyToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "recipe_product"
+            , schema = "cookies"
+            , joinColumns = @JoinColumn(name = "recipe_id")
+            , inverseJoinColumns = @JoinColumn(name = "product_id")
+    )
     private List<Product> products;
 
     public Recipe() {
@@ -45,6 +52,10 @@ public class Recipe {
         this.date = date;
     }
 
+    public List<Product> getProducts(){
+        return products;
+    }
+
     @Override
     public String toString() {
         return "Recipe{" +
@@ -55,5 +66,28 @@ public class Recipe {
                 ", photo='" + photo + '\'' +
                 ", date=" + date +
                 '}';
+    }
+
+    @Override
+    public int hashCode() {
+        return id.hashCode() + name.hashCode() + description.hashCode()
+                + video.hashCode() + photo.hashCode() + date.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this){
+            return true;
+        }
+        if (obj == null || obj.getClass() != this.getClass()){
+            return false;
+        }
+        Recipe recipe = (Recipe) obj;
+        return id.equals(recipe.id)
+                &&name.equals(recipe.name)
+                &&description.equals(recipe.description)
+                &&video.equals(recipe.video)
+                &&photo.equals(recipe.photo)
+                &&date.equals(recipe.date);
     }
 }
