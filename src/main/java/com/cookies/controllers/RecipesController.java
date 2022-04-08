@@ -1,5 +1,6 @@
 package com.cookies.controllers;
 
+import com.cookies.dto.ProductCreationDTO;
 import com.cookies.entities.Product;
 import com.cookies.entities.Recipe;
 import com.cookies.service.ProductService;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @CrossOrigin(maxAge = 3600)
 @RestController
@@ -50,7 +52,10 @@ public class RecipesController {
     }
 
     @GetMapping("/search")
-    public List<Recipe> getListOfRecipesByListOfProducts(@RequestBody List<Product> products){
+    public List<Recipe> getListOfRecipesByListOfProducts(@RequestBody List<ProductCreationDTO> productDTO){
+        List<Product> products = productDTO.stream()
+                .map(o -> productService.findByName(o.getName()))
+                .collect(Collectors.toList());
         return recipeService.getRecipeByProductsContaining(products);
     }
 }

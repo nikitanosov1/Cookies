@@ -41,7 +41,7 @@ public class RecipeServiceImpl implements RecipeService {
 
     @Override
     public List<Recipe> getRecipeByProductsContaining(List<Product> products) {
-        System.out.println(products);
         return recipeRepository.findAll().stream().filter(recipe -> recipe.getProducts().containsAll(products)).collect(Collectors.toList());
     }
+
 }

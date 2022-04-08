@@ -11,6 +11,11 @@ import java.util.List;
 public class ProductServiceImpl implements ProductService {
     private final ProductRepository productRepository;
 
+    @Override
+    public Product findByName(String name) {
+        return productRepository.findProductByName(name);
+    }
+
     public ProductServiceImpl(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }

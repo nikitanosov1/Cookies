@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 @CrossOrigin(maxAge = 3600)
@@ -36,8 +37,11 @@ public class ProductsController {
     }
 
     @GetMapping("/search")
-    public List<Product> getListOfProductsByProductName(@RequestParam("productName") String productName){
-        return productService.getListOfProductsByProductName(productName);
+    public List<String> getListOfProductsByProductName(@RequestParam("productName") String productName){
+        List<Product> products = productService.getListOfProductsByProductName(productName);
+        return products.stream()
+                .map(Product::getName)
+                .collect(Collectors.toList());
     }
 
     @GetMapping("/del")
