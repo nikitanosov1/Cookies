@@ -52,7 +52,7 @@ public class RecipesController {
     }
 
     @GetMapping("/search")
-    public List<Recipe> getListOfRecipesByListOfProducts(@RequestBody List<ProductCreationDTO> productDTO){
+    public List<Recipe> getListOfRecipesByListOfProducts(@RequestParam(value="product") List<ProductCreationDTO> productDTO){
         List<Product> products = productDTO.stream()
                 .map(o -> productService.findByName(o.getName()))
                 .collect(Collectors.toList());
