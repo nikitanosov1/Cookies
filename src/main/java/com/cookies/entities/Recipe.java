@@ -52,6 +52,16 @@ public class Recipe {
         this.date = date;
     }
 
+    public Recipe(Long id, String name, String description, String video, String photo, LocalDate date, List<Product> products) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.video = video;
+        this.photo = photo;
+        this.date = date;
+        this.products = products;
+    }
+
     public List<Product> getProducts(){
         return products;
     }
