@@ -34,6 +34,12 @@ public class Product {
         this.image = image;
     }
 
+    public Product(Long id, String name, String image) {
+        this.id = id;
+        this.name = name;
+        this.image = image;
+    }
+
     public List<Recipe> getRecipes(){
         return recipes;
     }
