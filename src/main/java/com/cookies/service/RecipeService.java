@@ -11,4 +11,5 @@ public interface RecipeService {
     Recipe getById(Long id);
     Recipe save(Recipe recipe);
     List<Recipe> getRecipeByProductsContaining(List<Product> products);
+    List<Recipe> getListOfRecipeByRecipeName(String recipeName);
 }

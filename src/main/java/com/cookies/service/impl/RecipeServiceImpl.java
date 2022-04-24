@@ -43,5 +43,8 @@ public class RecipeServiceImpl implements RecipeService {
     public List<Recipe> getRecipeByProductsContaining(List<Product> products) {
         return recipeRepository.findAll().stream().filter(recipe -> recipe.getProducts().containsAll(products)).collect(Collectors.toList());
     }
-
+    @Override
+    public List<Recipe> getListOfRecipeByRecipeName(String recipeName) {
+        return recipeRepository.findByNameContaining(recipeName);
+    }
 }

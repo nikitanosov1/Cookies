@@ -58,4 +58,9 @@ public class RecipesController {
                 .collect(Collectors.toList());
         return recipeService.getRecipeByProductsContaining(products);
     }
+
+    @GetMapping("/search/{recipeName}")
+    public List<Recipe> getListOfProductsByProductName(@PathVariable String recipeName) {
+        return recipeService.getListOfRecipeByRecipeName(recipeName);
+    }
 }
