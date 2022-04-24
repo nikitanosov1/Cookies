@@ -12,4 +12,5 @@ public interface RecipeService {
     Recipe save(Recipe recipe);
     List<Recipe> getRecipeByProductsContaining(List<Product> products);
     List<Recipe> getListOfRecipeByRecipeName(String recipeName);
+    List<Recipe> getListOfRecipeByRecipeNameAndProductsContaining(String recipeName, List<Product> products);
 }
