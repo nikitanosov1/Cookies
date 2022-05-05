@@ -48,4 +48,10 @@ public class ProductsController {
     public void del(){
         productService.deleteAll();
     }
+
+    @GetMapping("/id")
+    public Long getProductIdByProductName(@RequestParam("productName") String productName){
+        return productService.findByName(productName).getId();
+    }
+
 }
