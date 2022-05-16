@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-products
+      author: Nosov
+      changes:
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: water
