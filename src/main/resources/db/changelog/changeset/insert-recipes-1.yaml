@@ -1,0 +1,78 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-recipes
+      author: Nosov
+      changes:
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: name
+                  value: Classic charlotte
+              - column:
+                  name: description
+                  value: Classic charlotte. An important sweet dish of Soviet and post-Soviet history. Light, fluffy dough, maximum apple filling — Charlotte has always had an image of a pleasant, simple and at the same time delicious and dietary dish. Apples are strongly recommended to take from sour varieties — like Antonovka. They can be put both raw and pre-slightly caramelized in a frying pan. And it's better not to spare sugar. It is magically distributed in the right amount in the dough, and the excess forms a sweet crust.
+              - column:
+                  name: video
+                  value: https://youtu.be/mQjUbsMDEPw
+              - column:
+                  name: photo
+                  value: https://medaboutme.ru/upload/medialibrary/eb1/shutterstock_338356856.jpg
+              - column:
+                  name: date
+                  value: NOW()
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 85
+              - column:
+                  name: recipe_id
+                  value: 1
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 16
+              - column:
+                  name: recipe_id
+                  value: 1
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 81
+              - column:
+                  name: recipe_id
+                  value: 1
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 130
+              - column:
+                  name: recipe_id
+                  value: 1
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 35
+              - column:
+                  name: recipe_id
+                  value: 1
+

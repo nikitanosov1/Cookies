@@ -21,17 +21,17 @@ databaseChangeLog:
                     nullable: false
               - column:
                   name: description
-                  type: varchar(200)
+                  type: varchar(1000)
                   constraints:
                     nullable: false
               - column:
                   name: video
-                  type: varchar(200)
+                  type: varchar(500)
                   constraints:
                     nullable: false
               - column:
                   name: photo
-                  type: varchar(200)
+                  type: varchar(500)
                   constraints:
                     nullable: false
               - column:

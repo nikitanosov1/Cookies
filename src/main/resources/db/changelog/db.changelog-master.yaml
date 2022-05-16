@@ -11,4 +11,6 @@ databaseChangeLog:
       file: db/changelog/changeset/insert-products-2.yaml
   - include:
       file: db/changelog/changeset/insert-products-3.yaml
+  - include:
+      file: db/changelog/changeset/insert-recipes-1.yaml
 
