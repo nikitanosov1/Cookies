@@ -1,0 +1,21 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-recipes-products
+      author: Nosov
+      changes:
+        - createTable:
+            tableName: recipes_products
+            schemaName: cookies
+            columns:
+              - column:
+                  name: recipe_id
+                  type: bigint
+                  constraints:
+                    foreignKeyName: fk_recipe_id
+                    references: recipes(id)
+              - column:
+                  name: product_id
+                  type: bigint
+                  constraints:
+                    foreignKeyName: fk_product_id
+                    references: products(id)

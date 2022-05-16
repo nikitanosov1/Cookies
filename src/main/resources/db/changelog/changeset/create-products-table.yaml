@@ -1,0 +1,26 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-products
+      author: Nosov
+      changes:
+        - createTable:
+            tableName: products
+            schemaName: cookies
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: image
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
