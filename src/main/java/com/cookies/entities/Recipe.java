@@ -34,7 +34,7 @@ public class Recipe {
     private LocalDate date;
 
     @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "recipe_product"
+    @JoinTable(name = "recipes_products"
             , schema = "cookies"
             , joinColumns = @JoinColumn(name = "recipe_id")
             , inverseJoinColumns = @JoinColumn(name = "product_id")
