@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: insert-products
-      author: Nosov
+      author: Artem
       changes:
         #Meat
         - insert:

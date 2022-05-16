@@ -16,7 +16,7 @@ databaseChangeLog:
                     nullable: false
               - column:
                   name: image
-                  type: varchar(200)
+                  type: varchar(500)
                   constraints:
                     nullable: false
               - column:

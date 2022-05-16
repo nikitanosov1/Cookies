@@ -1,0 +1,616 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-products
+      author: Nosov
+      changes:
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 35
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/7965889/pexels-photo-7965889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr
+              - column:
+                  name: name
+                  value: Butter
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 39
+              - column:
+                  name: image
+                  value: https://www.dogtownpizza.com/wp-content/uploads/2018/06/hand-cut-basil.jpg
+              - column:
+                  name: name
+                  value: Fresh Basil
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 40
+              - column:
+                  name: image
+                  value: https://thumbs.dreamstime.com/b/turnip-tops-29364231.jpg
+              - column:
+                  name: name
+                  value: Fresh turnip tops
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 41
+              - column:
+                  name: image
+                  value: https://veganblackbox.com/wp-content/uploads/2018/08/vegan-food-closeup-31.jpg
+              - column:
+                  name: name
+                  value: Beet
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 42
+              - column:
+                  name: image
+                  value: https://i.pinimg.com/originals/5c/4b/c3/5c4bc3b9c9cc12e8b67b04a88073e3c9.jpg
+              - column:
+                  name: name
+                  value: Fresh grape leaves
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 43
+              - column:
+                  name: image
+                  value: https://avatars.mds.yandex.net/get-zen_doc/1852570/pub_5d0577f0778de80db60965b2_5d0578505bb2291e2ea93f04/scale_1200
+              - column:
+                  name: name
+                  value: Coriander leaves
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 44
+              - column:
+                  name: image
+                  value: https://travnick-altay.com/image/cache/catalog/kiprey-cvet-1200x1200.jpg
+              - column:
+                  name: name
+                  value: Kiprei fresh
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 45
+              - column:
+                  name: image
+                  value: https://i.ytimg.com/vi/d22yUUUkyOo/maxresdefault.jpg
+              - column:
+                  name: name
+                  value: Fresh quinoa
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 46
+              - column:
+                  name: image
+                  value: https://mikrozelen.q30.ru/files/amarant2.jpg
+              - column:
+                  name: name
+                  value: Fresh amaranth leaves
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 47
+              - column:
+                  name: image
+                  value: https://www.euromag.ru/storage/c/2015/06/09/1433859307_446085_61.jpg
+              - column:
+                  name: name
+                  value: Fresh dandelion leaves
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 48
+              - column:
+                  name: image
+                  value: https://img5.goodfon.ru/wallpaper/nbig/a/4e/osen-listia-fon-doski-colorful-tykva-klen-wood-background--7.jpg
+              - column:
+                  name: name
+                  value: Fresh pumpkin leaves
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 49
+              - column:
+                  name: image
+                  value: https://avatars.mds.yandex.net/i?id=085d497026b5f5296d151c08c788f052-5877927-images-thumbs&n=13
+              - column:
+                  name: name
+                  value: Fresh chicory leaves
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 50
+              - column:
+                  name: image
+                  value: https://avatars.mds.yandex.net/i?id=1d4c761770e3ad29de790148ddc03890-4942568-images-thumbs&n=13
+              - column:
+                  name: name
+                  value: Fresh green onion
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 51
+              - column:
+                  name: image
+                  value: https://assets.epicurious.com/photos/5763132cff66dde1456dfed0/master/w_240
+              - column:
+                  name: name
+                  value: Fresh mint
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 52
+              - column:
+                  name: image
+                  value: https://blog.nutririse.com/wp-content/uploads/2020/01/Green-fresh-mint.jpg
+              - column:
+                  name: name
+                  value: Fresh peppermint
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 53
+              - column:
+                  name: image
+                  value: https://res.cloudinary.com/fleetnation/image/private/c_fill,g_center,h_640,w_640/v1427110609/s44k8nyiaoxdcqmfrcmb.jpg
+              - column:
+                  name: name
+                  value: Fresh persley
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 54
+              - column:
+                  name: image
+                  value: https://www.theseedcollection.com.au/assets/full/B4-11.jpg?20201210132116
+              - column:
+                  name: name
+                  value: Fresh purslane
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 55
+              - column:
+                  name: image
+                  value: https://i.pinimg.com/736x/8c/3d/a7/8c3da79d7289fd0bbc35586469ae70a3--rosemary-recipes-herb-garden.jpg
+              - column:
+                  name: name
+                  value: Fresh rosemary
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 56
+              - column:
+                  name: image
+                  value: https://avatars.mds.yandex.net/i?id=952b28d1c442b9eb57cb321467e73e24-5235671-images-thumbs&n=13
+              - column:
+                  name: name
+                  value: Fresh arugula
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 57
+              - column:
+                  name: image
+                  value: https://magazine.velasresorts.com/wp-content/uploads/2020/04/Thyme.jpg
+              - column:
+                  name: name
+                  value: Fresh thyme
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 58
+              - column:
+                  name: image
+                  value: https://www.womenfitness.org/wp/wp-content/uploads/2018/01/dill-leaves1.jpg
+              - column:
+                  name: name
+                  value: Fresh dill
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 59
+              - column:
+                  name: image
+                  value: https://avatars.mds.yandex.net/get-zen_doc/198554/pub_5c014ce6dad30903b0d0a3c8_5c014e36d43c5303cb8de73f/scale_1200
+              - column:
+                  name: name
+                  value: Boiled spinach
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 60
+              - column:
+                  name: image
+                  value: https://zhenskietainy.ru/wp-content/uploads/2019/05/1-15.jpg
+              - column:
+                  name: name
+                  value: Fresh spinach
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 61
+              - column:
+                  name: image
+                  value: https://northern-bloc.com/wp-content/uploads/2016/12/15492599_749143355237676_7982463172838196854_n.jpg
+              - column:
+                  name: name
+                  value: Fresh sorrel
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 64
+              - column:
+                  name: image
+                  value: https://www.herbco.com/images/product/large/p-1001-chervil-cs.jpg
+              - column:
+                  name: name
+                  value: Dried openwork chervil
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 65
+              - column:
+                  name: image
+                  value: https://samisrykami.ru/wp-content/uploads/2020/11/fb6ab95f46d121612be0b44c1423b6c4.jpg
+              - column:
+                  name: name
+                  value: Bay leaf
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 66
+              - column:
+                  name: image
+                  value: https://cdn.pixabay.com/photo/2017/06/04/11/10/marjoram-2370814_1280.jpg
+              - column:
+                  name: name
+                  value: Marjoram
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 67
+              - column:
+                  name: image
+                  value: https://plant-growing.com/wp-content/uploads/2020/08/mayor.j
+              - column:
+                  name: name
+                  value: Oregano
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 69
+              - column:
+                  name: image
+                  value: https://www.foodrepublic.com/wp-content/uploads/2016/10/tablewine.jpg
+              - column:
+                  name: name
+                  value: Table wine
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 70
+              - column:
+                  name: image
+                  value: https://tallypress.com/wp-content/uploads/2017/10/top-10-wine-bars-in-penang.jpg
+              - column:
+                  name: name
+                  value: While wine
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 71
+              - column:
+                  name: image
+                  value: https://vedi-alco.am/uploads/2018/08/yerevanci-white-dry.jpg
+              - column:
+                  name: name
+                  value: Dry dessert wine
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 72
+              - column:
+                  name: image
+                  value: https://i.pinimg.com/originals/0e/a4/23/0ea4234e088a736b65e9c499bfa64e08.jpg
+              - column:
+                  name: name
+                  value: Red wine
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 73
+              - column:
+                  name: image
+                  value: https://isorepublic.com/wp-content/uploads/2018/11/isorepublic-pink-wine-drinks-1.jpg
+              - column:
+                  name: name
+                  value: Pink wine
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 74
+              - column:
+                  name: image
+                  value: https://wallbox.ru/wallpapers/main/201622/21c0091c84342da.jpg
+              - column:
+                  name: name
+                  value: Whiskey
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 75
+              - column:
+                  name: image
+                  value: https://i.pinimg.com/originals/a0/01/f5/a001f5edf48f035ab6755a90a53fbdd1.jpg
+              - column:
+                  name: name
+                  value: Vodka
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 76
+              - column:
+                  name: image
+                  value: https://heaclub.ru/tim/ca4c92ef4b8b1564989198c8328375a8/dzhin.jpg
+              - column:
+                  name: name
+                  value: Gin
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 77
+              - column:
+                  name: image
+                  value: https://3.bp.blogspot.com/-_g49NpzKh9I/Wh9NtHnsEwI/AAAAAAAAA7k/M8QKySZuDLoqsHTmq9pmOYBPicCNjQuNgCLcBGAs/s1600/Highlands-Hollow-TaraMorgan.jpg
+              - column:
+                  name: name
+                  value: Dark beer
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 78
+              - column:
+                  name: image
+                  value: https://8eec6b7d99d8a3a1b5b1-49f97db1eb72aee418e7cd0a8a05f778.ssl.cf1.rackcdn.com/_I9Z6053---Ice-Bud-Light-Edited-Sharpened.jpg
+              - column:
+                  name: name
+                  value: Light beer
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 79
+              - column:
+                  name: image
+                  value: https://i.pinimg.com/originals/e3/43/4a/e3434af21b1ab14212402e29271f8aed.jpg
+              - column:
+                  name: name
+                  value: Rum
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 81
+              - column:
+                  name: image
+                  value: https://static9.depositphotos.com/1588534/1102/i/950/depositphotos_11024084-stock-photo-wheat-grain-and-flour.jpg
+              - column:
+                  name: name
+                  value: Flour
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 82
+              - column:
+                  name: image
+                  value: https://static.fanpage.it/wp-content/uploads/sites/22/2019/06/oat.jpg
+              - column:
+                  name: name
+                  value: Oat
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 83
+              - column:
+                  name: image
+                  value: https://www.eatthis.com/wp-content/uploads/sites/4/2020/06/white-bread.jpg
+              - column:
+                  name: name
+                  value: White bread
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 84
+              - column:
+                  name: image
+                  value: https://zanmsk.ru/wp-content/uploads/2019/08/12cf50b8f8b509598ffefe1399376ebb.jpg
+              - column:
+                  name: name
+                  value: Black bread
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 85
+              - column:
+                  name: image
+                  value: https://capitolfoodco.com/wp-content/uploads/2020/05/1drew-hays-zTFTouPkkG0-unsplash-1536x1024.jpg
+              - column:
+                  name: name
+                  value: Sugar
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 86
+              - column:
+                  name: image
+                  value: https://mykaleidoscope.ru/uploads/posts/2021-09/1632190165_8-mykaleidoscope-ru-p-karameli-krasivo-foto-8.jpg
+              - column:
+                  name: name
+                  value: Caramel
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 87
+              - column:
+                  name: image
+                  value: https://image.winudf.com/v2/image/Y29tLmNvb2traWUuY29va2llY2xpY2tfc2NyZWVuc2hvdHNfMl8xMDJjYjQzNA/screen-2.jpg?fakeurl=1&type=.jpg
+              - column:
+                  name: name
+                  value: Cookie
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 92
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/4110462/pexels-photo-4110462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Potato
