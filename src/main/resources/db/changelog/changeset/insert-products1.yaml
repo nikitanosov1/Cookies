@@ -1,0 +1,326 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-products
+      author: Nosov
+      changes:
+        #Meat
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 1
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Beef
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 3
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/11898916/pexels-photo-11898916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Veal
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 4
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/1927377/pexels-photo-1927377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Pork
+        #Sea meat and fish
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 5
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/6430690/pexels-photo-6430690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Shark meat
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 7
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/8599612/pexels-photo-8599612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Red caviar
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 8
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Jellyfish
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 10
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/3304176/pexels-photo-3304176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Salmon
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 11
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/5602496/pexels-photo-5602496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Squid
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 12
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/3046629/pexels-photo-3046629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Octopus
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 13
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/76966/crab-red-klippenkrabbe-grapsus-grapsus-shellfish-76966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Crab
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 14
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/4553120/pexels-photo-4553120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Lobster
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 15
+              - column:
+                  name: image
+                  value: https://wasabisushi.dk/sites/default/files/forret-wakame1.jpg
+              - column:
+                  name: name
+                  value: Wakame
+
+
+
+      #Eggs
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 16
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/4110234/pexels-photo-4110234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Egg
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 17
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/5218445/pexels-photo-5218445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Egg yolk
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 18
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/6633742/pexels-photo-6633742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Quail egg
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 19
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/4040144/pexels-photo-4040144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Duck egg
+        #Milk products
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 20
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/5794879/pexels-photo-5794879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Cream cheese
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 21
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/4109943/pexels-photo-4109943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Brie cheese
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 22
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/4187778/pexels-photo-4187778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Gouda cheese
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 23
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/373882/pexels-photo-373882.jpeg
+              - column:
+                  name: name
+                  value: Yogurt
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 24
+              - column:
+                  name: image
+                  value: https://legkovmeste.ru/wp-content/uploads/2019/07/post_5d1dd75e571e5.jpg
+              - column:
+                  name: name
+                  value: Kefir
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 25
+              - column:
+                  name: image
+                  value: https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+              - column:
+                  name: name
+                  value: Milk
+
+        #Soy
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 26
+              - column:
+                  name: image
+                  value: https://topkin.ru/wp-content/uploads/2017/10/7-4-800x533.jpg
+              - column:
+                  name: name
+                  value: Soy sauce
+        - insert:
+            schemaName: cookies
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  value: 27
+              - column:
+                  name: image
+                  value: https://jesstior.com/wp-content/uploads/2021/04/Soybean-seeds.jpg
+              - column:
+                  name: name
+                  value: Soy beans
