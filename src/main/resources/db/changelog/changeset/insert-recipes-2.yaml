@@ -21,80 +21,80 @@ databaseChangeLog:
                   value: https://www.youtube.com/watch?v=0sa5lOgYp1k
               - column:
                   name: photo
-                  value: https://supy-salaty.ru/uploads/posts/2014-05/1401018818_zapechennaya_kambala.jpg
+                  value: https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_960_720.jpg
               - column:
                   name: date
                   value: NOW()
-              - insert:
-                  schemaName: cookies
-                  tableName: recipes_products
-                  columns:
-                    - column:
-                        name: product_id
-                        value: 50
-                    - column:
-                        name: recipe_id
-                        value: 20
-              - insert:
-                  schemaName: cookies
-                  tableName: recipes_products
-                  columns:
-                    - column:
-                        name: product_id
-                        value: 100
-                    - column:
-                        name: recipe_id
-                        value: 20
-              - insert:
-                  schemaName: cookies
-                  tableName: recipes_products
-                  columns:
-                    - column:
-                        name: product_id
-                        value: 16
-                    - column:
-                        name: recipe_id
-                        value: 20
-              - insert:
-                  schemaName: cookies
-                  tableName: recipes_products
-                  columns:
-                    - column:
-                        name: product_id
-                        value: 85
-                    - column:
-                        name: recipe_id
-                        value: 20
-              - insert:
-                  schemaName: cookies
-                  tableName: recipes_products
-                  columns:
-                    - column:
-                        name: product_id
-                        value: 35
-                    - column:
-                        name: recipe_id
-                        value: 20
-              - insert:
-                  schemaName: cookies
-                  tableName: recipes_products
-                  columns:
-                    - column:
-                        name: product_id
-                        value: 21
-                    - column:
-                        name: recipe_id
-                        value: 20
-              - insert:
-                  schemaName: cookies
-                  tableName: recipes_products
-                  columns:
-                    - column:
-                        name: product_id
-                        value: 8
-                    - column:
-                        name: recipe_id
-                        value: 20
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 50
+              - column:
+                  name: recipe_id
+                  value: 20
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 100
+              - column:
+                  name: recipe_id
+                  value: 20
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 16
+              - column:
+                  name: recipe_id
+                  value: 20
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 85
+              - column:
+                  name: recipe_id
+                  value: 20
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 35
+              - column:
+                  name: recipe_id
+                  value: 20
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 21
+              - column:
+                  name: recipe_id
+                  value: 20
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 8
+              - column:
+                  name: recipe_id
+                  value: 20
 
         #2
         - insert:
@@ -115,7 +115,7 @@ databaseChangeLog:
                   value: https://www.youtube.com/watch?v=BFADotwefL4
               - column:
                   name: photo
-                  value: https://images.eatsmarter.com/sites/default/files/styles/facebook/public/meatballs-with-salad-and-rice-547980.jpg
+                  value: https://avatars.mds.yandex.net/get-zen_doc/1692094/pub_5ffd45294e7c415dee78e576_5ffd4565cb7df1535d2ebd54/scale_1200
               - column:
                   name: date
                   value: NOW()
@@ -220,7 +220,7 @@ databaseChangeLog:
                   value: https://www.youtube.com/watch?v=0ag0HGiwb7Q
               - column:
                   name: photo
-                  value: https://lobsterhouse.ru/wp-content/uploads/7/8/9/7894194561e74c096f6a7609a5373df9.jpeg
+                  value: https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_960_720.jpg
               - column:
                   name: date
                   value: NOW()
@@ -293,7 +293,7 @@ databaseChangeLog:
                   value: https://www.youtube.com/watch?v=2GITcAkYrb8
               - column:
                   name: photo
-                  value: https://s4.cdn.eg.ru/wp-content/uploads/2020/01/post015210.jpg
+                  value: https://avatars.mds.yandex.net/get-zen_doc/3532529/pub_5f196d88e842c0719cbb4242_5f19791af2af2d6cc444673f/scale_1200
               - column:
                   name: date
                   value: NOW()
@@ -510,7 +510,7 @@ databaseChangeLog:
                   value: https://youtu.be/Csucj03gBxM
               - column:
                   name: photo
-                  value: https://recipes.av.ru//media/recipes/100529_picture_nYercue.jpg
+                  value: https://cdn.pixabay.com/photo/2017/11/23/13/50/pumpkin-soup-2972858_960_720.jpg
               - column:
                   name: date
                   value: NOW()
@@ -573,7 +573,7 @@ databaseChangeLog:
                   value: 9
               - column:
                   name: name
-                  value: Сheese soup
+                  value: Cheese soup
               - column:
                   name: description
                   value: Place the meat in a 3 liter saucepan and pour in the water. As soon as the broth begins to boil, add 1 teaspoon of salt, a couple of allspice and black peppercorns, 2-3 bay leaves. Cook from the moment of boiling for 20 minutes. Then take out the meat. Peel the potatoes and cut into cubes. Onion cut into cubes. Grate carrots. Meat cut into small pieces. Processed cheese (if in the form of a stick), grate or cut into cubes. Add the potatoes to the boiling broth. From the moment of boiling 5-7 minutes. At this time, make a weak frying in butter. Put the onions first, then the carrots. Lightly salt and pepper. Add the finished frying to the soup and cook for another 5-7 minutes. Then add chopped meat. Cook for 3-4 minutes, add melted cheese, stir well and turn off the heat. Sprinkle with herbs before serving. Serve with croutons if desired.
@@ -582,7 +582,7 @@ databaseChangeLog:
                   value: https://youtu.be/1-Rs6Wz-Rdw
               - column:
                   name: photo
-                  value: https://static.1000.menu/img/content-v2/9e/aa/11781/syrnyi-sup-s-kuricei-i-kartofelem_1590478472_10_max.jpg
+                  value: https://cdn.pixabay.com/photo/2017/01/24/20/30/soup-2006317_960_720.jpg
               - column:
                   name: date
                   value: NOW()

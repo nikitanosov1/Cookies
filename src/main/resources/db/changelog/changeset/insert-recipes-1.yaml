@@ -21,7 +21,7 @@ databaseChangeLog:
                   value: https://youtu.be/mQjUbsMDEPw
               - column:
                   name: photo
-                  value: https://medaboutme.ru/upload/medialibrary/eb1/shutterstock_338356856.jpg
+                  value: https://cdn.pixabay.com/photo/2021/11/14/21/10/dessert-6795725_960_720.jpg
               - column:
                   name: date
                   value: NOW()
