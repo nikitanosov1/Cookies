@@ -41,8 +41,11 @@ public class RecipeServiceImpl implements RecipeService {
 
     @Override
     public List<Recipe> getRecipeByProductsContaining(List<Product> products) {
+        // Если рецептов будет много, здесь будет просадка по производительности
+        // Хорошо бы предусмотреть возможность фильтровать рецепты на уровне запроса в БД
         return recipeRepository.findAll().stream().filter(recipe -> recipe.getProducts().containsAll(products)).collect(Collectors.toList());
     }
+
     @Override
     public List<Recipe> getListOfRecipeByRecipeName(String recipeName) {
         return recipeRepository.findByNameContaining(recipeName);

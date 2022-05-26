@@ -10,11 +10,12 @@ import java.util.List;
 @Entity
 @Getter
 @Setter
-@Table(name = "products", schema = "cookies")
+@Table(name = "products")
+// Схему лучше в коде не указывать нигде явно - ее, как правило, указывают в jdbc url
 public class Product {
     @Id
     @Column
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column

@@ -14,7 +14,8 @@ import java.util.List;
 @Table(name = "recipes", schema = "cookies")
 public class Recipe {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // У вас в БД в этой таблице автоинкремент, поэтому тут правильнее будет Identity использовать
     private Long id;
 
     @Column
@@ -31,6 +32,7 @@ public class Recipe {
 
     @Column
     @JsonFormat(pattern = "yyyy-MM-dd")
+    // Сущности не должны маппиться в JSON, если это для api нужно, то необходимо использовать DTO
     private LocalDate date;
 
     @ManyToMany(cascade = CascadeType.ALL)

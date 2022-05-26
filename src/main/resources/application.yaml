@@ -8,6 +8,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: 1608
+    hikari:
+      schema: cookies
   jpa:
     show-sql: true
     properties:

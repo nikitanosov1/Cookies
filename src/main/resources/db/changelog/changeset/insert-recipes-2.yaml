@@ -1,0 +1,668 @@
+databaseChangeLog:
+  - changeSet:
+      id: insert-recipes-2
+      author: Nosov
+      changes:
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 20
+              - column:
+                  name: name
+                  value: Baked flounder
+              - column:
+                  name: description
+                  value: Gentle, just melts in your mouth... with onion and mushrooms, with sour cream sauce... mmmmmmm... I couldn't tear myself away)))
+              - column:
+                  name: video
+                  value: https://www.youtube.com/watch?v=0sa5lOgYp1k
+              - column:
+                  name: photo
+                  value: https://supy-salaty.ru/uploads/posts/2014-05/1401018818_zapechennaya_kambala.jpg
+              - column:
+                  name: date
+                  value: NOW()
+              - insert:
+                  schemaName: cookies
+                  tableName: recipes_products
+                  columns:
+                    - column:
+                        name: product_id
+                        value: 50
+                    - column:
+                        name: recipe_id
+                        value: 20
+              - insert:
+                  schemaName: cookies
+                  tableName: recipes_products
+                  columns:
+                    - column:
+                        name: product_id
+                        value: 100
+                    - column:
+                        name: recipe_id
+                        value: 20
+              - insert:
+                  schemaName: cookies
+                  tableName: recipes_products
+                  columns:
+                    - column:
+                        name: product_id
+                        value: 16
+                    - column:
+                        name: recipe_id
+                        value: 20
+              - insert:
+                  schemaName: cookies
+                  tableName: recipes_products
+                  columns:
+                    - column:
+                        name: product_id
+                        value: 85
+                    - column:
+                        name: recipe_id
+                        value: 20
+              - insert:
+                  schemaName: cookies
+                  tableName: recipes_products
+                  columns:
+                    - column:
+                        name: product_id
+                        value: 35
+                    - column:
+                        name: recipe_id
+                        value: 20
+              - insert:
+                  schemaName: cookies
+                  tableName: recipes_products
+                  columns:
+                    - column:
+                        name: product_id
+                        value: 21
+                    - column:
+                        name: recipe_id
+                        value: 20
+              - insert:
+                  schemaName: cookies
+                  tableName: recipes_products
+                  columns:
+                    - column:
+                        name: product_id
+                        value: 8
+                    - column:
+                        name: recipe_id
+                        value: 20
+
+        #2
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 2
+              - column:
+                  name: name
+                  value: Juicy lula beef kebab
+              - column:
+                  name: description
+                  value: Lula kebab is a meat dish popular in the Middle East and Central Asia. It is difficult to accurately determine its homeland, all because it has many varieties. From the Persian language, kebab translates as "fried meat". And the method of cooking this fried meat is different for different peoples. Lula kebab is called minced meat or minced meat, strung on a skewer and fried on coals. A kind of meat cutlet, but without the addition of eggs, flour or bread. Minced meat is kneaded long enough to form a homogeneous dense mass. Due to this, the finished product does not disintegrate during heat treatment. Properly prepared lula kebab is toasted golden crust and juicy meat inside. Add to it a hot homemade tortilla, fresh vegetables, herbs and various sauces-it's impossible to resist! In my case, lula kebab is prepared at home in an electric oven. The aroma and taste qualities were not affected.
+              - column:
+                  name: video
+                  value: https://www.youtube.com/watch?v=BFADotwefL4
+              - column:
+                  name: photo
+                  value: https://images.eatsmarter.com/sites/default/files/styles/facebook/public/meatballs-with-salad-and-rice-547980.jpg
+              - column:
+                  name: date
+                  value: NOW()
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 1
+              - column:
+                  name: recipe_id
+                  value: 2
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 35
+              - column:
+                  name: recipe_id
+                  value: 2
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 100
+              - column:
+                  name: recipe_id
+                  value: 2
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 101
+              - column:
+                  name: recipe_id
+                  value: 2
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 103
+              - column:
+                  name: recipe_id
+                  value: 2
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 58
+              - column:
+                  name: recipe_id
+                  value: 2
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 55
+              - column:
+                  name: recipe_id
+                  value: 2
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 43
+              - column:
+                  name: recipe_id
+                  value: 2
+
+
+        #3
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 3
+              - column:
+                  name: name
+                  value: Meat nests with vegetable filling
+              - column:
+                  name: description
+                  value: Meat nests with vegetable filling and a cheese cap are a cross between cutlets and zrazy, but in a more advantageous presentation. It turns out an excellent dish for a festive table and for every day.
+              - column:
+                  name: video
+                  value: https://www.youtube.com/watch?v=0ag0HGiwb7Q
+              - column:
+                  name: photo
+                  value: https://lobsterhouse.ru/wp-content/uploads/7/8/9/7894194561e74c096f6a7609a5373df9.jpeg
+              - column:
+                  name: date
+                  value: NOW()
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 1
+              - column:
+                  name: recipe_id
+                  value: 3
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 100
+              - column:
+                  name: recipe_id
+                  value: 3
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 97
+              - column:
+                  name: recipe_id
+                  value: 3
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 20
+              - column:
+                  name: recipe_id
+                  value: 3
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 104
+              - column:
+                  name: recipe_id
+                  value: 3
+        #4
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 4
+              - column:
+                  name: name
+                  value: Oatmeal and apple cookies
+              - column:
+                  name: description
+                  value: Delicious and simple oatmeal cookies without white flour and sugar. This recipe has a minimum of ingredients. Sweetness of the liver gives an apple. I make these oatmeal cookies very often.
+              - column:
+                  name: video
+                  value: https://www.youtube.com/watch?v=2GITcAkYrb8
+              - column:
+                  name: photo
+                  value: https://s4.cdn.eg.ru/wp-content/uploads/2020/01/post015210.jpg
+              - column:
+                  name: date
+                  value: NOW()
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 130
+              - column:
+                  name: recipe_id
+                  value: 4
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 82
+              - column:
+                  name: recipe_id
+                  value: 4
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 35
+              - column:
+                  name: recipe_id
+                  value: 4
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 135
+              - column:
+                  name: recipe_id
+                  value: 4
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 85
+              - column:
+                  name: recipe_id
+                  value: 4
+        #5
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 5
+              - column:
+                  name: name
+                  value: Pea soup with stew
+              - column:
+                  name: description
+                  value: Pea soup with stew - A recipe for cooking in a slow cooker. Pea soups are probably one of the most satisfying (well, at least in my opinion). But if you also send stew there — it seems that it turns out to be generally wonderful. Moreover, a good stew still improves the taste of the soup very well. Additional advantages also include simple ingredients and a simple recipe. So ahead of us is waiting for Pea soup with stew.
+              - column:
+                  name: video
+                  value: https://www.youtube.com/watch?v=_8wYxbRXbH0
+              - column:
+                  name: photo
+                  value: https://avatars.mds.yandex.net/i?id=d5d9d7ec36375f85a200ad17beffa8ae-5878042-images-thumbs&n=13
+              - column:
+                  name: date
+                  value: NOW()
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 92
+              - column:
+                  name: recipe_id
+                  value: 5
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 100
+              - column:
+                  name: recipe_id
+                  value: 5
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 111
+              - column:
+                  name: recipe_id
+                  value: 5
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 97
+              - column:
+                  name: recipe_id
+                  value: 5
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 3
+              - column:
+                  name: recipe_id
+                  value: 5
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 7
+              - column:
+                  name: name
+                  value: Brownie
+              - column:
+                  name: description
+                  value: Beat eggs with sugar. Gradually add flour and salt, alternating with milk, and gently stir until smooth. Leave for 20 minutes. Add vegetable oil to the dough and fry pancakes in a very hot frying pan.
+              - column:
+                  name: video
+                  value: https://youtu.be/U8AiB_9cvzc
+              - column:
+                  name: photo
+                  value: https://media.istockphoto.com/photos/crepes-thin-pancakes-with-honey-on-a-white-plate-marble-background-picture-id1148462929?k=20&m=1148462929&s=612x612&w=0&h=D4rCRHrwaO0kLLioXP7MPNaL2aKCj0MW7wDgQXnj9pg=
+              - column:
+                  name: date
+                  value: NOW()
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 25
+              - column:
+                  name: recipe_id
+                  value: 7
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 81
+              - column:
+                  name: recipe_id
+                  value: 7
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 85
+              - column:
+                  name: recipe_id
+                  value: 7
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 16
+              - column:
+                  name: recipe_id
+                  value: 7
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 35
+              - column:
+                  name: recipe_id
+                  value: 7
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 8
+              - column:
+                  name: name
+                  value: Pumpkin pie
+              - column:
+                  name: description
+                  value: Grind flour, salt and butter between your palms so that the mixture looks like bread crumbs. Then add the beaten egg and knead the dough. Roll into a ball, wrap in plastic wrap and refrigerate for 30-50 minutes. Clean pumpkin, remove seeds. Cut the pulp into cubes. Put in a saucepan, add water and simmer until soft and the liquid has completely evaporated. Grind the pulp with a blender into a homogeneous mass. Roll out the dough. Put a sheet of baking paper on top of the dough and fill in any cereal. This will allow the cake to bake evenly. Bake for 15 minutes at 190 degrees. Put pumpkin puree in a deep bowl, beat with two eggs, sugar, cream, spices and salt. Pour the mixture into the baked dough. Bake the cake for 50-55 minutes at 180 degrees. When the cake has cooled, it can be safely cut into portions.
+              - column:
+                  name: video
+                  value: https://youtu.be/Csucj03gBxM
+              - column:
+                  name: photo
+                  value: https://recipes.av.ru//media/recipes/100529_picture_nYercue.jpg
+              - column:
+                  name: date
+                  value: NOW()
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 81
+              - column:
+                  name: recipe_id
+                  value: 8
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 35
+              - column:
+                  name: recipe_id
+                  value: 8
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 16
+              - column:
+                  name: recipe_id
+                  value: 8
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 107
+              - column:
+                  name: recipe_id
+                  value: 8
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 25
+              - column:
+                  name: recipe_id
+                  value: 8
+        - insert:
+            schemaName: cookies
+            tableName: recipes
+            columns:
+              - column:
+                  name: id
+                  value: 9
+              - column:
+                  name: name
+                  value: Сheese soup
+              - column:
+                  name: description
+                  value: Place the meat in a 3 liter saucepan and pour in the water. As soon as the broth begins to boil, add 1 teaspoon of salt, a couple of allspice and black peppercorns, 2-3 bay leaves. Cook from the moment of boiling for 20 minutes. Then take out the meat. Peel the potatoes and cut into cubes. Onion cut into cubes. Grate carrots. Meat cut into small pieces. Processed cheese (if in the form of a stick), grate or cut into cubes. Add the potatoes to the boiling broth. From the moment of boiling 5-7 minutes. At this time, make a weak frying in butter. Put the onions first, then the carrots. Lightly salt and pepper. Add the finished frying to the soup and cook for another 5-7 minutes. Then add chopped meat. Cook for 3-4 minutes, add melted cheese, stir well and turn off the heat. Sprinkle with herbs before serving. Serve with croutons if desired.
+              - column:
+                  name: video
+                  value: https://youtu.be/1-Rs6Wz-Rdw
+              - column:
+                  name: photo
+                  value: https://static.1000.menu/img/content-v2/9e/aa/11781/syrnyi-sup-s-kuricei-i-kartofelem_1590478472_10_max.jpg
+              - column:
+                  name: date
+                  value: NOW()
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 20
+              - column:
+                  name: recipe_id
+                  value: 9
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 92
+              - column:
+                  name: recipe_id
+                  value: 9
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 100
+              - column:
+                  name: recipe_id
+                  value: 9
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 97
+              - column:
+                  name: recipe_id
+                  value: 9
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 35
+              - column:
+                  name: recipe_id
+                  value: 9
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 122
+              - column:
+                  name: recipe_id
+                  value: 9
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 65
+              - column:
+                  name: recipe_id
+                  value: 9
+        - insert:
+            schemaName: cookies
+            tableName: recipes_products
+            columns:
+              - column:
+                  name: product_id
+                  value: 84
+              - column:
+                  name: recipe_id
+                  value: 9
