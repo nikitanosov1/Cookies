@@ -36,11 +36,8 @@ public class ProductsController {
     }
 
     @GetMapping("/search")
-    public List<String> getListOfProductsByProductName(@RequestParam("productName") String productName){
-        List<Product> products = productService.getListOfProductsByProductName(productName);
-        return products.stream()
-                .map(Product::getName)
-                .collect(Collectors.toList());
+    public List<Product> getListOfProductsByProductName(@RequestParam("productName") String productName){
+        return productService.getListOfProductsByProductName(productName);
     }
 
     // GET - это метод, работающий только на чтение, а тут он все продукты из БД удаляет
