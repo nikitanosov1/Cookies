@@ -32,7 +32,6 @@ public class ProductsController {
 
     @PostMapping("/add")
     public Product add(@RequestBody Product product){
-        System.out.println(product);
         return productService.addProduct(product);
     }
 
@@ -44,14 +43,20 @@ public class ProductsController {
                 .collect(Collectors.toList());
     }
 
-    @GetMapping("/del")
-    public void del(){
-        productService.deleteAll();
-    }
+    // GET - это метод, работающий только на чтение, а тут он все продукты из БД удаляет
+    // Тут нужно использовать DELETE, но этот метод должен удалять сущность по id, а не все
+    /*@DeleteMapping("/del/{id}")
+    public void del(@PathVariable("id") Long id){
+        productService.delete();
+    }*/
 
     @GetMapping("/id")
     public Long getProductIdByProductName(@RequestParam("productName") String productName){
-        return productService.findByName(productName).getId();
+        Product product = productService.findByName(productName);
+        if (product != null) {
+            return product.getId();
+        }
+        return null;
     }
 
 }

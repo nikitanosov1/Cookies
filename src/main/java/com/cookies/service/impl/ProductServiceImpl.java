@@ -11,27 +11,17 @@ import java.util.List;
 public class ProductServiceImpl implements ProductService {
     private final ProductRepository productRepository;
 
-    @Override
-    public Product findByName(String name) {
-        return productRepository.findProductByName(name);
-    }
-
     public ProductServiceImpl(ProductRepository productRepository) {
         this.productRepository = productRepository;
     }
 
     @Override
+    public Product findByName(String name) {
+        return productRepository.findProductByName(name);
+    }
+
+    @Override
     public Product addProduct(Product product) {
-        return productRepository.saveAndFlush(product);
-    }
-
-    @Override
-    public void deleteAll() {
-        productRepository.deleteAll();
-    }
-
-    @Override
-    public Product editProduct(Product product) {
         return productRepository.saveAndFlush(product);
     }
 
