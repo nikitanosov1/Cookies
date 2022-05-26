@@ -467,7 +467,7 @@ databaseChangeLog:
                   value: 76
               - column:
                   name: image
-                  value: https://heaclub.ru/tim/ca4c92ef4b8b1564989198c8328375a8/dzhin.jpg
+                  value: https://fb.ru/misc/i/gallery/116840/3250689.jpg
               - column:
                   name: name
                   value: Gin
@@ -493,7 +493,7 @@ databaseChangeLog:
                   value: 78
               - column:
                   name: image
-                  value: https://8eec6b7d99d8a3a1b5b1-49f97db1eb72aee418e7cd0a8a05f778.ssl.cf1.rackcdn.com/_I9Z6053---Ice-Bud-Light-Edited-Sharpened.jpg
+                  value: https://www.allagash.com/wp-content/uploads/Allagash-Ale-Lager-Blog-1-4.jpg
               - column:
                   name: name
                   value: Light beer
@@ -506,7 +506,7 @@ databaseChangeLog:
                   value: 79
               - column:
                   name: image
-                  value: https://i.pinimg.com/originals/e3/43/4a/e3434af21b1ab14212402e29271f8aed.jpg
+                  value: https://316111.smushcdn.com/2090723/wp-content/uploads/2014/01/Flor-de-Cana-18.jpg?lossy=0&strip=0&webp=1
               - column:
                   name: name
                   value: Rum
@@ -545,7 +545,7 @@ databaseChangeLog:
                   value: 83
               - column:
                   name: image
-                  value: https://www.eatthis.com/wp-content/uploads/sites/4/2020/06/white-bread.jpg
+                  value: https://yesofcorsa.com/wp-content/uploads/2017/08/White-Bread-Wallpaper-HQ1.jpg
               - column:
                   name: name
                   value: White bread
@@ -558,7 +558,7 @@ databaseChangeLog:
                   value: 84
               - column:
                   name: image
-                  value: https://zanmsk.ru/wp-content/uploads/2019/08/12cf50b8f8b509598ffefe1399376ebb.jpg
+                  value: https://static.mk.ru/upload/entities/2020/12/06/01/articles/facebookPicture/77/5b/23/84/4a62916baa1b3f379117eb22e970cf45.jpg
               - column:
                   name: name
                   value: Black bread
@@ -571,7 +571,7 @@ databaseChangeLog:
                   value: 85
               - column:
                   name: image
-                  value: https://capitolfoodco.com/wp-content/uploads/2020/05/1drew-hays-zTFTouPkkG0-unsplash-1536x1024.jpg
+                  value: https://quietly-image-uploads.s3.amazonaws.com/sugarcubes_1280px_825e2a1a4f8b43c0a7f4e8da6f7e4470.jpeg
               - column:
                   name: name
                   value: Sugar
@@ -584,7 +584,7 @@ databaseChangeLog:
                   value: 86
               - column:
                   name: image
-                  value: https://mykaleidoscope.ru/uploads/posts/2021-09/1632190165_8-mykaleidoscope-ru-p-karameli-krasivo-foto-8.jpg
+                  value: https://mykaleidoscope.ru/uploads/posts/2021-09/1632190184_22-mykaleidoscope-ru-p-karameli-krasivo-foto-22.jpg
               - column:
                   name: name
                   value: Caramel

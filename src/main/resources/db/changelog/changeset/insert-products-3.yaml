@@ -25,7 +25,7 @@ databaseChangeLog:
                   value: 94
               - column:
                   name: image
-                  value: https://www.tastingtable.com/img/gallery/everything-you-need-to-know-about-wasabi/l-intro-1642537775.j
+                  value: https://helperia.ru/public/images/articles/0/04/srp2qze3lym.jpg
               - column:
                   name: name
                   value: Wasabi
@@ -363,7 +363,7 @@ databaseChangeLog:
                   value: 127
               - column:
                   name: image
-                  value: https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/271157_2200-732x549.jpg
+                  value: https://avatars.mds.yandex.net/get-zen_doc/2804475/pub_5f05d3f5280723676e385436_5f05d43848bfa16942f83902/scale_1200
               - column:
                   name: name
                   value: Banana
