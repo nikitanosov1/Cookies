@@ -185,7 +185,7 @@ databaseChangeLog:
             columns:
               - column:
                   name: product_id
-                  value: 55
+                  value: 56
               - column:
                   name: recipe_id
                   value: 2

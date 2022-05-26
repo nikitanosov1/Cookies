@@ -157,7 +157,7 @@ databaseChangeLog:
                   value: 15
               - column:
                   name: image
-                  value: https://wasabisushi.dk/sites/default/files/forret-wakame1.jpg
+                  value: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Salade_wakame_%28Paris%29.JPG/1200px-Salade_wakame_%28Paris%29.JPG
               - column:
                   name: name
                   value: Wakame
@@ -279,7 +279,7 @@ databaseChangeLog:
                   value: 24
               - column:
                   name: image
-                  value: https://legkovmeste.ru/wp-content/uploads/2019/07/post_5d1dd75e571e5.jpg
+                  value: https://i.imgur.com/rbUim6J.jpg
               - column:
                   name: name
                   value: Kefir
@@ -307,7 +307,7 @@ databaseChangeLog:
                   value: 26
               - column:
                   name: image
-                  value: https://topkin.ru/wp-content/uploads/2017/10/7-4-800x533.jpg
+                  value: https://s.alicdn.com/@sc01/kf/Hde48f6a9d89241daa68840503810df32t.jpg
               - column:
                   name: name
                   value: Soy sauce
@@ -320,7 +320,7 @@ databaseChangeLog:
                   value: 27
               - column:
                   name: image
-                  value: https://jesstior.com/wp-content/uploads/2021/04/Soybean-seeds.jpg
+                  value: https://www.healthifyme.com/blog/wp-content/uploads/2020/03/soyabean-cover-1.jpg
               - column:
                   name: name
                   value: Soy beans

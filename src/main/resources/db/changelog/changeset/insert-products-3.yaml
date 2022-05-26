@@ -25,7 +25,7 @@ databaseChangeLog:
                   value: 94
               - column:
                   name: image
-                  value: https://helperia.ru/public/images/articles/0/04/srp2qze3lym.jpg
+                  value: https://cdn.pixabay.com/photo/2014/05/26/14/53/sushi-354628_960_720.jpg
               - column:
                   name: name
                   value: Wasabi
@@ -220,7 +220,7 @@ databaseChangeLog:
                   value: 113
               - column:
                   name: image
-                  value: https://www.acouplecooks.com/wp-content/uploads/2020/03/French-Lentils-024.jpg
+                  value: https://cdn.pixabay.com/photo/2013/07/25/12/03/daal-166985_960_720.jpg
               - column:
                   name: name
                   value: Lentils
