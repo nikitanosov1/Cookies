@@ -11,6 +11,7 @@ databaseChangeLog:
                   name: id
                   type: bigint
                   autoIncrement: true
+                  startWith: 200
                   constraints:
                     primaryKey: true
                     nullable: false
