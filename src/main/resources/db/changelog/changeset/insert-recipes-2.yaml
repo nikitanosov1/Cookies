@@ -360,7 +360,7 @@ databaseChangeLog:
                   value: Pea soup with stew
               - column:
                   name: description
-                  value: Pea soup with stew - A recipe for cooking in a slow cooker. Pea soups are probably one of the most satisfying (well, at least in my opinion). But if you also send stew there — it seems that it turns out to be generally wonderful. Moreover, a good stew still improves the taste of the soup very well. Additional advantages also include simple ingredients and a simple recipe. So ahead of us is waiting for Pea soup with stew.
+                  value: Pea soup with stew. A recipe for cooking in a slow cooker. Pea soups are probably one of the most satisfying (well, at least in my opinion). But if you also send stew there it seems that it turns out to be generally wonderful. Moreover, a good stew still improves the taste of the soup very well. Additional advantages also include simple ingredients and a simple recipe. So ahead of us is waiting for Pea soup with stew.
               - column:
                   name: video
                   value: https://www.youtube.com/watch?v=_8wYxbRXbH0

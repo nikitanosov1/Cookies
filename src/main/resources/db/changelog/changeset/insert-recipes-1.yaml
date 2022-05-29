@@ -15,7 +15,7 @@ databaseChangeLog:
                   value: Classic charlotte
               - column:
                   name: description
-                  value: Classic charlotte. An important sweet dish of Soviet and post-Soviet history. Light, fluffy dough, maximum apple filling — Charlotte has always had an image of a pleasant, simple and at the same time delicious and dietary dish. Apples are strongly recommended to take from sour varieties — like Antonovka. They can be put both raw and pre-slightly caramelized in a frying pan. And it's better not to spare sugar. It is magically distributed in the right amount in the dough, and the excess forms a sweet crust.
+                  value: Classic charlotte. An important sweet dish of Soviet and post-Soviet history. Light, fluffy dough, maximum apple filling Charlotte has always had an image of a pleasant, simple and at the same time delicious and dietary dish. Apples are strongly recommended to take from sour varieties like Antonovka. They can be put both raw and pre-slightly caramelized in a frying pan. And it's better not to spare sugar. It is magically distributed in the right amount in the dough, and the excess forms a sweet crust.
               - column:
                   name: video
                   value: https://youtu.be/mQjUbsMDEPw
